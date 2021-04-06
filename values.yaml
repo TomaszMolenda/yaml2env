@@ -1,0 +1,18 @@
+service:
+  jobmanager:
+    webUiPort: 8081
+  taskmanager:
+    rpcPort: 6122
+    tototto:
+      dasdsa: dsadsad
+      dad: dadsada
+    totottoa:
+      dasdsa: dsadsad
+      dad: dadsada
+    queryStateName: query-state
+    queryStatePort: 6125
+
+autoscaler:
+  replicaMinCount: 1
+  replicaMaxCount: 10
+  cpuAvgUtilization: 70
