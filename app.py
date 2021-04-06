@@ -58,7 +58,7 @@ def create_env(index, lines):
     for parent in parents[::-1]:
         key += parent.strip().replace(":", "_")
     key += line.strip().split(': ')[0]
-    return f"{upper_case_key(key)}: {value}"
+    return f"{upper_case_key(key)}={value}"
 
 
 def process(yaml_location):
